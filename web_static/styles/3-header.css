@@ -2,8 +2,11 @@
     height: 70px;
     width: 100%;
     color: #fff;
-    border-bottom: 1px #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
     padding-left: 20px;
+
+    display: flex;
+    align-items: center;
 }
 
 .header__logo{
