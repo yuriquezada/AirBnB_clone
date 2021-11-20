@@ -1,0 +1,13 @@
+.header{
+    height: 70px;
+    width: 100%;
+    color: #fff;
+    border-bottom: 1px #CCCCCC;
+    padding-left: 20px;
+}
+
+.header__logo{
+    width: 142px;
+    height: 60px;
+    background-image: url("/web_static/images/logo.png");
+}
