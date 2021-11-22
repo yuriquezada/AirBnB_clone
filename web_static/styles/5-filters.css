@@ -22,3 +22,27 @@
 .filters__button:hover{
     opacity: 90%;
 }
+
+.locations, .amenities{
+    padding: 15px 40px;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.locations{
+    border-right: 1px solid #ddd;
+}
+
+.filters__title{
+    margin: 0;
+    font-weight: 600;
+}
+
+.filters__subtitle{
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+}
