@@ -1,15 +1,12 @@
 .places{
     padding: 20px;
 }
-.places ul{
+.places__articles{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
-}
-.places li{
-    list-style: none;
 }
 .places__title{
     font-size: 30px;
