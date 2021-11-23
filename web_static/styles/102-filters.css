@@ -1,0 +1,88 @@
+.filters{
+    background-color: #fff;
+    height: 70px;
+    outline: 1px solid #ddd;
+    border-radius: 4px;
+
+    display: grid;
+    grid-template-columns: 25% 25% auto 20% 30px;
+    align-items: center;
+}
+
+.filters__button{
+    font-size: 18px;
+    background-color: #FF5A5F;
+    color: #fff;
+    height: 48px;
+    border: none;
+    border-radius: 4px;
+    grid-column-start: 4;
+}
+
+.filters__button:hover{
+    opacity: 90%;
+}
+
+.filters>.locations, .filters>.amenities{
+    position: relative;
+    padding: 15px 40px;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.locations{
+    border-right: 1px solid #ddd;
+}
+
+.filters__title{
+    margin: 0;
+    font-weight: 600;
+}
+
+.filters__subtitle{
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.popover{
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0;
+    width: 250px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 20px;
+    list-style: none;
+    border: 1px solid #ddd;
+    background-color: #FAFAFA;
+    border-radius: 4px;
+}
+.popover__locations{
+    grid-row-gap: 20px;
+}
+.popover__amenities{
+    grid-row-gap: 10px;
+}
+.popover__state-title{
+    font-size: 16px;
+    margin: 0;
+}
+.popover__location{
+    display: grid;
+    grid-row-gap: 10px;
+}
+.popover__cities{
+    list-style: none;
+    padding-left: 20px;
+    display: grid;
+    grid-row-gap: 4px;
+}
+
+.locations:hover > .popover, .amenities:hover > .popover{
+    display: grid;
+}
