@@ -1,0 +1,26 @@
+.places ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+.places li{
+    list-style: none;
+}
+.places__title{
+    font-size: 30px;
+    margin-bottom: 0;
+}
+.places__article{
+    width: 390px;
+    margin: 20px;
+    padding: 20px;
+    outline: 1px solid #FF5A5F;
+    border-radius: 4px;
+}
+.places__article-title{
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+}
