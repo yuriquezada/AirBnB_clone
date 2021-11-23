@@ -1,3 +1,6 @@
+.places{
+    padding: 20px;
+}
 .places ul{
     display: flex;
     justify-content: center;
@@ -10,7 +13,7 @@
 }
 .places__title{
     font-size: 30px;
-    margin-bottom: 0;
+    margin: 20px 0 4px 0;
 }
 .places__article{
     width: 390px;
