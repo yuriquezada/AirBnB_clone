@@ -1,16 +1,14 @@
 .places{
     padding: 20px;
 }
-.places>ul{
+.places__articles{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
 }
-.places>ul>li{
-    display: flex;
-}
+
 .places li{
     list-style: none;
 }
