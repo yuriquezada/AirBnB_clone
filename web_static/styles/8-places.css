@@ -1,7 +1,7 @@
 .places{
     padding: 20px;
 }
-.places__articles{
+.places .articles{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -12,11 +12,11 @@
 .places li{
     list-style: none;
 }
-.places__title{
+.places h1{
     font-size: 30px;
     margin: 20px 0 4px 0;
 }
-.places__article{
+.places .article{
     width: 390px;
     margin: 20px;
     padding: 0 20px;
