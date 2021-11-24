@@ -1,4 +1,4 @@
-.header{
+header{
     height: 70px;
     width: 100%;
     color: #fff;
@@ -9,7 +9,7 @@
     align-items: center;
 }
 
-.header__logo{
+header div.logo{
     width: 142px;
     height: 60px;
     background-image: url("/web_static/images/logo.png");
