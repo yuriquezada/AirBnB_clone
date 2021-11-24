@@ -9,7 +9,7 @@
     align-items: center;
 }
 
-.filters__button{
+.filters button{
     font-size: 18px;
     background-color: #FF5A5F;
     color: #fff;
@@ -19,7 +19,7 @@
     grid-column-start: 4;
 }
 
-.filters__button:hover{
+.filters button:hover{
     opacity: 90%;
 }
 
@@ -36,7 +36,7 @@
     border-right: 1px solid #ddd;
 }
 
-.filters__title{
+.filters .title{
     margin: 0;
     font-weight: 600;
 }
