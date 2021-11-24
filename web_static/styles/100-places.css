@@ -95,7 +95,7 @@
     margin: 0 0 4px 0;
 }
 
-.places article h2{
+.places article .amenities h2, .places article .reviews h2{
     border-bottom: 1px solid #ddd;
     margin: 0;
     padding: 10px 0;
