@@ -12,14 +12,14 @@
     font-size: 30px;
     margin: 20px 0 4px 0;
 }
-.places .article{
+.places article{
     width: 390px;
     margin: 20px;
     padding: 20px;
     outline: 1px solid #FF5A5F;
     border-radius: 4px;
 }
-.places__article-title{
+.places .article_title{
     font-size: 30px;
     margin: 0;
     text-align: center;
