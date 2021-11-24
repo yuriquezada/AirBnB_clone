@@ -41,7 +41,7 @@
     font-weight: 600;
 }
 
-.filters__subtitle{
+.filters .subtitle{
     margin: 0;
     font-weight: 400;
     font-size: 14px;
