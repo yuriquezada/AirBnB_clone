@@ -95,7 +95,7 @@
     margin: 0 0 4px 0;
 }
 
-.amenities__title, .reviews__title{
+.places article h2{
     border-bottom: 1px solid #ddd;
     margin: 0;
     padding: 10px 0;
@@ -118,31 +118,31 @@
 .places article .amenities>ul>li>p{
     margin: 0;
 }
-.amenities__icon{
+.places article .amenities .icon{
     width: 16px;
     height: 16px;
     background-size:cover
 }
-.amenities__icon.tv{
+.places article .amenities .icon.tv{
     background-image: url('/web_static/images/icon_tv.png');
 }
-.amenities__icon.wifi{
+.places article .amenities .icon.wifi{
     background-image: url('/web_static/images/icon_wifi.png');
 }
-.amenities__icon.pets{
+.places article .amenities .icon.pets{
     background-image: url('/web_static/images/icon_pets.png');
 }
 
-.article__reviews>ul{
+.places article .reviews>ul{
     padding: 20px 0;
     display: grid;
     grid-row-gap: 10px;
 }
-.reviews__h3{
+.places article .reviews h3{
     margin: 0;
     font-size: 14px;
 }
-.reviews__p{
+.places article .reviews p{
     margin: 4px 0;
     font-size: 12px;
 }
