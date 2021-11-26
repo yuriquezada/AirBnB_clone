@@ -86,3 +86,38 @@
 .locations:hover > .popover, .amenities:hover > .popover{
     display: grid;
 }
+
+
+@media screen and (max-width: 1023px){
+    .filters{
+        max-width: 90%;
+        margin: auto;
+    }
+    .filters .title{
+        font-size: 14px;
+    }
+    .filters .subtitle{
+        font-size: 12px;
+    }
+    .filters>.locations, .filters>.amenities{
+        padding: 15px 16px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .filters{
+        grid-template-columns: 50% 50%;
+        gap: 10px 0;
+        height: auto;
+        outline: none;
+    }
+    .filters button{
+        grid-column: 1/4;
+        justify-self: center;
+        min-width: 200px;
+    }
+    .filters>.locations, .filters>.amenities{
+        outline: 1px solid #ddd;
+        min-height: 64px;
+    }
+}

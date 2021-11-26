@@ -12,5 +12,11 @@
 header .logo{
     width: 142px;
     height: 60px;
-    background-image: url("/web_static/images/logo.png");
+}
+
+@media screen and (max-width: 767px){
+    header img.logo{
+        width: 100px;
+        height: auto
+    }    
 }

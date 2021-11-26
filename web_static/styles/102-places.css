@@ -74,15 +74,6 @@
     width: 50px;
     height: 50px;
 }
-.max_guest .icon{
-    background-image: url('/web_static/images/icon_group.png');
-}
-.number_rooms .icon{
-    background-image: url('/web_static/images/icon_bed.png');
-}
-.number_bathrooms .icon{
-    background-image: url('/web_static/images/icon_bath.png');
-}
 .information p{
     margin: 0 auto;
 }
@@ -123,16 +114,6 @@
     height: 16px;
     background-size:cover
 }
-.places article .amenities .icon.tv{
-    background-image: url('/web_static/images/icon_tv.png');
-}
-.places article .amenities .icon.wifi{
-    background-image: url('/web_static/images/icon_wifi.png');
-}
-.places article .amenities .icon.pets{
-    background-image: url('/web_static/images/icon_pets.png');
-}
-
 .places article .reviews>ul{
     padding: 20px 0;
     display: grid;
@@ -147,6 +128,27 @@
     font-size: 12px;
 }
 
-/* @media only screen and (min-width: 768px){
+@media screen and (max-width: 1023px){
+    .places h1, .places .article_title{
+        font-size: 24px;
+    }
+}
 
-} */
+@media screen and (max-width: 767px){
+    .places h1, .places .article_title{
+        font-size: 18px;
+    }
+    .places P{
+        font-size: 12px;
+    }
+    .places .article_header{
+        grid-template-columns: 50px auto 50px;
+        padding: 5px 0;
+    }
+    .price_by_night{
+        width: 50px;
+        height: 50px;
+        min-width: 50px;
+        font-size: 20px;
+    }
+}
